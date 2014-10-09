@@ -1,5 +1,7 @@
 label,sublabel,description,styles,bgcolor
-燃やさないごみ,,,img/moyasanai02.svg,#733b96
-資源,,,img/shigen02.svg,#77ae1f
-燃やすごみ,,,img/moyasu02.svg,#ea3b13
-びん,,,img/bin02.svg,#2dc7aa
+可燃ごみ・ビン,,,img/kanengomi_bin.svg,#ffbdb2
+不燃ごみ・本・商品プラスチック,,,img/funengomi_hon_shohinpura.svg,#c1b3dc
+プラスチック製容器包装・油・特定処理品目,,,img/puraseiyokihoso_abura_tokutei.svg,#8adefc
+カン・なべ類,,,img/kan_naberui.svg,#fcffa8
+ペットボトル,,,img/pettobotoru.svg,#18baea
+その他資源,,,img/sonotashigen.svg,#a9e4b9
