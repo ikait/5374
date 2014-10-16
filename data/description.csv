@@ -1,7 +1,7 @@
 label,sublabel,description,styles,bgcolor
-可燃ごみ・ビン,,,img/kanengomi_bin.svg,#ffbdb2
-不燃ごみ・本・商品プラスチック,,,img/funengomi_hon_shohinpura.svg,#c1b3dc
-プラスチック製容器包装・油・特定処理品目,,,img/puraseiyokihoso_abura_tokutei.svg,#8adefc
-カン・なべ類,,,img/kan_naberui.svg,#fcffa8
-ペットボトル,,,img/pettobotoru.svg,#18baea
-その他資源,,,img/sonotashigen.svg,#a9e4b9
+可燃ごみ・ビン,,,img/bk_kanengomi_bin.svg,#ffbdb2
+不燃ごみ・本・商品プラスチック,,,img/bk_funengomi_hon_shohinpura.svg,#c1b3dc
+プラスチック製容器包装・油・特定処理品目,,,img/bk_puraseiyokihoso_abura_tokutei.svg,#8adefc
+カン・なべ類,,,img/bk_kan_naberui.svg,#fcffa8
+ペットボトル,,,img/bk_pettobotoru.svg,#18baea
+その他資源,,,img/bk_sonotashigen.svg,#a9e4b9
