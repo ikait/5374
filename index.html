@@ -2,7 +2,14 @@
 <html lang="ja">
   <head>
     <meta charset="UTF-8">
-    <title>5374(ｺﾞﾐﾅｼ).jp</title> 
+    <meta property="og:title" content="5374.jp藤沢版" />
+    <meta property="og:type" content="product" />
+    <meta property="og:url" content="http://fujisawa.5374.jp/" />
+    <meta property="og:description" content="Code for Kanazawaの作った5374.jpは貴方の地域で、いつ、どのゴミが回収されるのか、簡単に知る事ができます。" />
+    <meta property="og:image" content="http://kanazawa.5374.jp/img/ogp.png" />
+    <meta name="Keywords" content="藤沢市,5374,ごみ,ゴミ収集日" />
+    <meta name="description" content="Code for Kanazawaの作った5374.jpは貴方の地域で、いつ、どのゴミが回収されるのか、簡単に知る事ができます。" />
+    <title>5374(ｺﾞﾐﾅｼ).jp</title>
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=0" />
     <link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon-precomposed.png" />
@@ -15,11 +22,63 @@
   <div id="accordion"></div>
   <select class="form-control" id="select_area"></select>
   <div class="accordion" id="accordion3">
+      <div class="accordion-group-top">
+          <div class="accordion-heading">
+              <a class="accordion-toggle-top" data-toggle="collapse" data-parent="#accordion3" href="#collapse3_0">大型ごみ・特別大型ごみについて</a>
+          </div>
+          <div id="collapse3_0" class="accordion-body collapse">
+              <div class="accordion-inner">
+                  <div id="help">
+                      <h2>対象</h2>
+                      <h3>大型ゴミ</h3>
+                      <p><strong>大型ごみ等処理手数料納付券: 1枚500円となります。</strong><br/>
+                          ※1辺または長さが50cm以上2m未満のごみ。</p>
+                      <h3>特別大型ごみ</h3>
+                      <p><strong>大型ごみ等処理手数料納付券: 2枚1000円となります。</strong><br/>
+                          ※特別大型ごみの対象品目は14品目となります。
+                          ただし、1辺または長さが<strong>1m未満</strong>
+                          の場合は、大型ゴミとして出せます。
+                      </p>
+                      <p>特別大型ごみ 対象品目:</p>
+                      <ul>
+                          <li>タンス</li>
+                          <li>サイドボード</li>
+                          <li>食器棚</li>
+                          <li>書棚</li>
+                          <li>ソファー</li>
+                          <li>机</li>
+                          <li>浴槽</li>
+                          <li>門扉(門柱)</li>
+                          <li>流し台</li>
+                          <li>オルガン</li>
+                          <li>畳</li>
+                          <li>スプリング入りマット</li>
+                          <li>ベッド</li>
+                          <li>物置</li>
+                      </ul>
+                      <h2>出し方</h2>
+                      <ul>
+                          <li>大型ごみ等処理手数料納付券を貼って出してください。</li>
+                          <li>大型・特別大型ごみは、予約制の各戸収集です。</li>
+                      </ul>
+                      <h2>電話予約先</h2>
+                      <p>株式会社 藤沢市興業公社 <br/>
+                          TEL: 0466-23-5301<br/>
+                          FAX: 0466-26-7684
+                      </p>
+                      <p>受付時間: 8:30〜12:30 | 13:00〜17:00</p>
+                      <p>予約はインターネットからもできます!<br/>
+                          <a href="http://www.kousya.co.jp">http://www.kousya.co.jp</a>
+                      </p>
+                  </div>
+              </div>
+          </div>
+      </div>
     <div class="accordion-group-top">
       <div class="accordion-heading">
-        <a class="accordion-toggle-top" data-toggle="collapse" data-parent="#accordion3" href="#collapse3_0">5374.jpについて</a>
+        <a class="accordion-toggle-top" data-toggle="collapse" data-parent="#accordion3" href="#collapse3_1">5374.jpについて</a>
       </div>
-      <div id="collapse3_0" class="accordion-body collapse">
+      <div id="collapse3_1" class="accordion-body collapse">
         <div class="accordion-inner">
           <div id="help">
 ゴミの問題は、どの地域でも深刻になりつつあります。
@@ -27,7 +86,7 @@ Code for Kanazawaでは、先ずは正しいゴミの捨て方に注目しまし
 目的と使い方は、とてもシンプルです。
             <h2>目的</h2>
 「いつ、どのゴミが収集されているのか？」
-例えばお引っ越しをされた場合や、新しく金沢市に住むことになった時、このアプリを使えば、すぐに分かるようにデザインされています。
+例えばお引っ越しをされた場合や、新しく藤沢市に住むことになった時、このアプリを使えば、すぐに分かるようにデザインされています。
             <h2>使い方</h2>
             <h3>色でゴミのジャンルを表示</h3>
             <p>一番近いゴミの日とジャンルを上から順に表示しています。</p>
@@ -37,7 +96,7 @@ Code for Kanazawaでは、先ずは正しいゴミの捨て方に注目しまし
             <p>お住まいの地域を選択することで、ゴミ収集日が自動的に更新されます。</p>
             <div id="caption">
               <h4>提供されるゴミ情報について</h4>
-              <p>金沢市が公開しているデータからCfKが独自に解析し、アプリに実装しました。</p>
+              <p>藤沢市が公開しているデータから 慶應義塾大学 萩野服部研究室LODチーム が独自に解析し、アプリに実装しました。</p>
               <h4>ライセンスについて</h4>
               <p>本アプリの著作権はCode for Kanazawaに帰属します。</p>
             </div>
@@ -50,7 +109,7 @@ Code for Kanazawa（CfK）は、市民の課題を集め、その課題を整理
 私たちは、デザインをして、ソフトウェアコードを書き、課題を解決するサービスを完成させるのです。さらに、そのサービスを提供し続ける力も持ちます。<br /><br />
 CfKは市民のための組織です。行政や民間企業の影響を受けずに中立・公益の立場から物事を判断するよう心がけています。<br /><br />
 公式サイト<br />
-<a href="http://www.codeforkanazawa.org/">http://www.codeforkanazawa.org/</a>
+<a href="http://www.codeforkanazawa.org/" style=" color: #FF0000;text-decoration: underline;">http://www.codeforkanazawa.org/</a>
               </p>
             </div>
           </div>
